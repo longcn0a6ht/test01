@@ -10,12 +10,13 @@ pipeline {
         stage('pwd03') {
             steps {
                 sh pwd
-<<<<<<< HEAD
-=======
-
->>>>>>> login
             }
         }
+	stage('pull source code from githubt') {
+            steps {
+                cd /Users/longnguyen/test01&&git pull origin main 
+            }
+
     }
     
 }
