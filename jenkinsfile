@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('pwd01') {
+        stage('pwd02') {
             steps {
                 sh pwd
             }
