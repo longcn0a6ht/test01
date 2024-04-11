@@ -14,7 +14,8 @@ pipeline {
         }
 	stage('pull source code from githubt') {
             steps {
-                cd /Users/longnguyen/test01&&git pull origin main 
+		sh 'cd /Users/longnguyen/test01'
+		sh 'git pull origin main' 
             }
 
     }
