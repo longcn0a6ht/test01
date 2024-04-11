@@ -9,7 +9,7 @@ pipeline {
         }
         stage('pwd03') {
             steps {
-                sh pwd
+                sh 'pwd'
             }
         }
 	stage('pull source code from githubt') {
